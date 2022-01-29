@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "image": "abundancia",
+      "title": "Abundancia",
+      "animacao":true,
+      "sinal":false
+    },
+    { "id": 2, "image": "prosperidade", "title": "Prosperidade", "animacao":true, "sinal":false },
+    { "id": 3, "image": "dinheiro", "title": "Eu Ganho Dinheiro", "animacao":true, "sinal":false },
+    { "id": 4, "image": "hooponopono", "title": "Hooponopono", "animacao":true, "sinal":false },
+    { "id": 5, "image": "bemsuperior", "title": "Bem Superior", "animacao":true, "sinal":false }
+    
+  ]

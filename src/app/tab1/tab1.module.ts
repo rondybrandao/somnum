@@ -7,6 +7,8 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
+import { NativeAudio } from '@awesome-cordova-plugins/native-audio/ngx';
+
 @NgModule({
   imports: [
     IonicModule,
@@ -15,6 +17,7 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],
-  declarations: [Tab1Page]
+  declarations: [Tab1Page],
+  providers: [NativeAudio]
 })
 export class Tab1PageModule {}

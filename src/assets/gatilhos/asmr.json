@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "image": "sons-de-boca",
+      "title": "Sons de Boca",
+      "animacao":true,
+      "sinal":false
+    },
+    { "id": 2, "image": "brushing", "title": "Brushing", "animacao":true, "sinal":false },
+    { "id": 3, "image": "scratching", "title": "Scratching", "animacao":true, "sinal":false },
+    { "id": 4, "image": "tuctuc", "title": "Tuc Tuc", "animacao":true, "sinal":false },
+    { "id": 5, "image": "pluck", "title": "Pluck", "animacao":true, "sinal":false },
+    { "id": 6, "image": "hands", "title": "Movimento de Mãos", "animacao":true, "sinal":false },
+    { "id": 7, "image": "mastigando", "title": "Mastigando", "animacao":true, "sinal":false }
+  ]
