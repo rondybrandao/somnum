@@ -1,17 +1,151 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title color="light">Glossário</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-accordion-group>
+    <ion-accordion value="asmr">
+      <ion-item slot="header" class="asmr">
+        <ion-label>ASMR</ion-label>
+      </ion-item>
+  
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{ASMR}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    
+    </ion-accordion>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <ion-accordion value="afirmacoes">
+      <ion-item slot="header" class="afirmacoes">
+        <ion-label>Afirmações positivas</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{afirmacoes}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="leidaatracao">
+      <ion-item slot="header" class="leidaatracao">
+        <ion-label>Lei da atração</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{leidaatracao}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="mantras">
+      <ion-item slot="header" class="mantras">
+        <ion-label>Mantras</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{mantras}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+
+   
+    <ion-accordion value="solfegio">
+        <ion-item slot="header" class="solfegio">
+          <ion-label>Frequências de Solfeggio</ion-label>
+        </ion-item>
+    
+          <ion-list slot="content">
+            <ion-item >
+              <ion-text>
+                <p>
+                  São tons de sons que ajudam e promovem a saúde do corpo e da mente em vários aspectos. 
+                  Há registros de uso dessas frequências desde a antiguidade.
+                </p>
+              </ion-text>
+            </ion-item>
+          </ion-list>
+      
+      </ion-accordion>
+
+    <ion-accordion value="frequencia432">
+      <ion-item slot="header" class="frequencia432">
+        <ion-label>Frequência 432Hz</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{frequencia432}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="frequencia528">
+      <ion-item slot="header" class="frequencia528">
+        <ion-label>Frequência 528Hz</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{frequencia528}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="frequencia777">
+      <ion-item slot="header" class="frequencia777">
+        <ion-label>Frequência 741Hz</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+                {{frequencia741}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="frequencia888">
+      <ion-item slot="header" class="frequencia888">
+        <ion-label>Frequência 852Hz</ion-label>
+      </ion-item>
+        <ion-list slot="content">
+          <ion-item >
+            <ion-text>
+              <p>
+               {{frequencia852}}
+              </p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+    </ion-accordion>
+    
+  </ion-accordion-group>
 </ion-content>

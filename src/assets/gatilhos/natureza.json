@@ -1,0 +1,8 @@
+[
+   
+    { "id": 1, "image": "chuva", "title": "Chuva" },
+    { "id": 2, "image": "chuva-e-trovao", "title": "Chuva e Trovão" },
+    { "id": 3, "image": "trovao", "title": "Trovões" },
+    { "id": 4, "image": "ventania", "title": "Ventania" },
+    { "id": 5, "image": "ondas", "title": "Ondas no Mar" }
+  ]

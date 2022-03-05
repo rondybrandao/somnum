@@ -1,0 +1,13 @@
+{
+    "artist": "Godmode",
+    "backgroundColor": "#3d4c6c",
+    "image": "in3",
+    "released": 2012,
+    "title": "Frequencias",
+    "musica": "frequencias",
+    "tracks": [
+        { "title": "Frequencia 432", "seconds": 224, "musica": "frequencia-432", "image": "ex-re" },
+        { "title": "Frequencia 528", "seconds": 326, "musica": "frequencia-528", "image": "illuminate"  },
+        { "title": "Frequencia 777", "seconds": 337, "musica": "frequencia-777", "image": "in3"  }
+      ]
+  }

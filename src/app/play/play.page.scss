@@ -1,0 +1,172 @@
+ion-item {
+    --ion-item-background: transparent;
+    color: #fff;
+
+    p {
+        color: #949494;
+    }
+}
+
+ion-list {
+    --ion-background-color: var(--ion-color-dark);
+}
+
+ion-title, ion-content {
+    font-family: 'Spotify';
+}
+
+.album-info {
+    color: #fff;
+    margin-left: 11px;
+    p {
+        font-weight: bold;
+    }
+}
+
+.image-box {
+    position: fixed;
+    z-index: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+.section-header {
+    color: #fff;
+    font-family: 'Spotify';
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Spotify';
+    font-size: small;
+    margin-right: 3px
+}
+
+.title-add {
+    color: #fff;
+    font-family: 'Spotify';
+    font-size: small;
+    margin-right: -20px
+}
+// ion-row {
+//     padding-top: inherit;
+// }
+
+ion-content {
+    background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
+}
+
+ion-slide {
+    display: block;
+    text-align: center;
+}
+
+
+
+ion-slides {
+    margin-bottom: 0px;
+}
+
+.main {
+    z-index: 10;
+    background: linear-gradient(var(--custombg) 20%, var(--ion-color-dark) 30%);
+}
+
+.controleTimer{
+    margin-top: -150px;
+    color: #fff;
+}
+#circulo {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    margin: 0px;
+    margin-left: 9px;
+    text-align: center;
+    padding-top: 0px;
+    color: #fff;
+    }
+#circulo-resultado {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0px;
+  margin-left: 9px;
+  text-align: center;
+  padding-top: 26px;
+  color: #fff;
+  }
+
+#circulo-analise {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0px;
+  margin-left: 9px;
+  text-align: center;
+  padding-top: 26px;
+  color: rgb(0, 0, 0);
+  }
+#circulo-palpite {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  margin-left: 9px;
+  text-align: center;
+  padding-top: 26px;
+  color: #fff;
+  }
+
+#iconPlus {
+    size: 20px;
+}
+
+ion-icon {
+    position: absolute;
+    font-size: xx-large;
+    margin-left: -6px;
+}
+
+ion-label {
+    position:absolute;
+    margin-top: -19px;
+    margin-left: -15px;
+    font-size: small;
+}
+
+p {
+    font-size: x-large;
+    margin-top: -4px;
+}
+
+.lottie {
+    margin-top: -91px;
+    margin-left: 27px;
+}
+
+.tocando {
+    padding-top: 40vh;
+}
+
+.volume {
+    margin-top: -27px;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .tingleAdd {
+      display: inline-block;
+    }
+  }

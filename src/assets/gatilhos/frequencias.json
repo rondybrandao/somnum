@@ -1,0 +1,10 @@
+[
+    { "id": 1, "image": "frequencia-369hz", "title": "369hz", "animacao":true, "sinal":false },
+    { "id": 2, "image": "frequencia-432hz", "title": "432hz", "animacao":true, "sinal":false},
+    { "id": 3, "image": "frequencia-528hz", "title": "528hz", "animacao":true, "sinal":false },
+    { "id": 4, "image": "frequencia-741hz", "title": "741hz", "animacao":true, "sinal":false },
+    { "id": 5, "image": "frequencia-852hz", "title": "852hz", "animacao":true, "sinal":false },
+    { "id": 6, "image": "mantra-om", "title": "Mantra Om", "animacao":true, "sinal":false },
+    { "id": 7, "image": "mantra-kubera", "title": "Mantra Kubera", "animacao":true, "sinal":false }
+   
+  ]
