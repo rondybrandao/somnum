@@ -4,6 +4,7 @@ ion-tab-bar {
 
 ion-tab-button {
     --color-selected: #fff;
+    --background: var(--ion-color-medium);
 }
 
 .player {
@@ -16,16 +17,16 @@ ion-tab-button {
     color: #fff;
     font-size: small;
 
-    .progress-bar {
-        height: 2px;
-        width: 100%;
-        background: #707070;
+    // .progress-bar {
+    //     height: 2px;
+    //     width: 100%;
+    //     background: #707070;
     
-        .progress {
-            background: #fff;
-            height: 100%;
-        }
-    }    
+    //     .progress {
+    //         background: #fff;
+    //         height: 100%;
+    //     }
+    // }    
 }
 
 

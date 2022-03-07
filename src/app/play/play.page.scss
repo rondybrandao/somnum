@@ -8,7 +8,7 @@ ion-item {
 }
 
 ion-list {
-    --ion-background-color: var(--ion-color-dark);
+    --background-color: var(--ion-color-dark);
 }
 
 ion-title, ion-content {
@@ -58,7 +58,7 @@ ion-title, ion-content {
 // }
 
 ion-content {
-    background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
+    --background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
 }
 
 ion-slide {
